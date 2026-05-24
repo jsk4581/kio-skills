@@ -65,7 +65,7 @@ Grouped by the phase of work they serve.
 
 Three ideas run through every skill here:
 
-- **Give the model success criteria, not micro-instructions.** Strong, verifiable goals let an agent loop independently; vague ones force constant clarification.
+- **Give the model success criteria.** Strong, verifiable goals let an agent loop independently; vague ones force constant clarification.
 - **The context window is a shared resource.** Skills stay short and push detail into on-demand reference files, so the model spends its attention on your problem, not on boilerplate.
 - **Separate doing from judging.** Fresh agents catch what the producer rationalized away — grill the plan before building, evaluate the result after.
 
