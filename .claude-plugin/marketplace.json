@@ -1,0 +1,33 @@
+{
+  "name": "kio-skills",
+  "id": "kio-skills",
+  "owner": {
+    "name": "kio",
+    "url": "https://github.com/jsk4581"
+  },
+  "metadata": {
+    "description": "A composable set of Claude Code skills for systematic work — research, planning, implementation, and feedback.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "kio-skills",
+      "source": "./",
+      "description": "Research, problem-solving, plan grilling, multi-agent deliberation, disciplined implementation, and feedback-loop skills, built on the hypothesis that a lean, structured harness gets the most out of the model.",
+      "version": "0.1.0",
+      "author": {
+        "name": "kio"
+      },
+      "license": "MIT",
+      "keywords": [
+        "claude-code",
+        "skills",
+        "agent",
+        "workflow",
+        "research",
+        "planning"
+      ],
+      "category": "workflow"
+    }
+  ]
+}
