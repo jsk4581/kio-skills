@@ -1,7 +1,7 @@
 {
   "name": "kio-skills",
   "description": "A composable set of Claude Code skills for systematic work — research, problem-solving, plan grilling, multi-agent deliberation, disciplined implementation, and feedback loops. Built on the hypothesis that a lean, well-structured harness gets the most out of the model.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": {
     "name": "kio",
     "email": "jsk4581@gmail.com",
