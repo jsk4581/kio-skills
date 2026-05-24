@@ -25,7 +25,6 @@
     "./skills/round-table",
     "./skills/karpathy-guidelines",
     "./skills/evaluator",
-    "./skills/reflector",
-    "./skills/project-manager"
+    "./skills/reflector"
   ]
 }

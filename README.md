@@ -2,7 +2,7 @@
 
 A composable set of [Claude Code](https://claude.com/claude-code) skills for doing serious work with an agent — from research and planning through implementation and feedback.
 
-**Hypothesis:** a lean, well-structured harness gets the most out of the model. These skills are deliberately small and sharp. Each gives the model just enough structure to do one thing well, and they compose: a project moves from `researcher` → `griller` → `karpathy-guidelines` → `evaluator`, coordinated by `project-manager`.
+**Hypothesis:** a lean, well-structured harness gets the most out of the model. These skills are deliberately small and sharp. Each gives the model just enough structure to do one thing well, and they compose: a project moves from `researcher` → `griller` → `karpathy-guidelines` → `evaluator`, coordinated by the [project-orchestration `CLAUDE.md`](./CLAUDE.md).
 
 ## Install
 
@@ -15,7 +15,7 @@ From within Claude Code:
 /plugin install kio-skills@kio-skills
 ```
 
-This makes all nine skills available across your projects.
+This makes all eight skills available across your projects.
 
 ### Option B — Manual
 
@@ -56,10 +56,17 @@ Grouped by the phase of work they serve.
 | [`evaluator`](./skills/evaluator/SKILL.md) | Separates doer from checker; spawns agents to validate and critique deliverables in a TDD-style loop. |
 | [`reflector`](./skills/reflector/SKILL.md) | Reviews the session for mistakes and friction, recording each with a recurrence-prevention measure. |
 
-### Orchestration
-| Skill | What it does |
-| --- | --- |
-| [`project-manager`](./skills/project-manager/SKILL.md) | Sets up the workspace, manages context across sessions, and routes each phase to the right skill above. |
+## Project orchestration (`CLAUDE.md`)
+
+Coordinating a multi-session project is always-on context, not an on-invoke skill — so it ships as a [`CLAUDE.md`](./CLAUDE.md) you copy into your own project rather than as a skill. It sets up the workspace, manages context across sessions (folder `CLAUDE.md` files, [mem0](https://mem0.ai), and git), and routes each phase to the right skill above.
+
+```bash
+# into a new project
+curl -o CLAUDE.md https://raw.githubusercontent.com/jsk4581/kio-skills/main/CLAUDE.md
+
+# or append to an existing CLAUDE.md
+curl https://raw.githubusercontent.com/jsk4581/kio-skills/main/CLAUDE.md >> CLAUDE.md
+```
 
 ## Philosophy
 
