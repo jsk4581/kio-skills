@@ -51,6 +51,9 @@ Match the project phase to the skill built for it:
 ### Implementation
 - [karpathy-guidelines](./skills/karpathy-guidelines/SKILL.md) — concise behavioral guardrails for writing code.
 
+### Workspace
+- [memory-link](./skills/memory-link/SKILL.md) — surface the project's auto-memory dir and the global `CLAUDE.md` as gitignored symlinks in the project root.
+
 ### Feedback
 - [evaluator](./skills/evaluator/SKILL.md) — separate doer from checker; spawn agents to score and critique deliverables (iterative TDD-style loop).
 - [reflector](./skills/reflector/SKILL.md) — reflect on the session and record lessons with prevention measures.

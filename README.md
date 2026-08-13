@@ -15,7 +15,7 @@ From within Claude Code:
 /plugin install kio-skills@kio-skills
 ```
 
-This makes all eight skills available across your projects.
+This makes all nine skills available across your projects.
 
 ### Option B — Manual
 
@@ -55,6 +55,11 @@ Grouped by the phase of work they serve.
 | --- | --- |
 | [`evaluator`](./skills/evaluator/SKILL.md) | Separates doer from checker; spawns agents to validate and critique deliverables in a TDD-style loop. |
 | [`reflector`](./skills/reflector/SKILL.md) | Reviews the session for mistakes and friction, recording each with a recurrence-prevention measure. |
+
+### Workspace
+| Skill | What it does |
+| --- | --- |
+| [`memory-link`](./skills/memory-link/SKILL.md) | Symlinks Claude Code's per-project auto-memory dir and the global `CLAUDE.md` into the project root (gitignored), so memory is visible and editable in place. |
 
 ## Project orchestration (`CLAUDE.md`)
 
