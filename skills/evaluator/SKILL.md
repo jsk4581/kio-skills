@@ -1,6 +1,7 @@
 ---
 name: evaluator
-description: Separates the doer from the checker by spawning independent agents to validate and critique a deliverable, using captures, real usage, and quantified metrics where possible, or qualitative rubrics where metrics are unclear. Use when the user wants their work validated, reviewed by a fresh perspective, scored against criteria, or mentions "evaluate", "verify", "critique", or "검증".
+description: Separates the doer from the checker by spawning independent agents to validate and critique a deliverable, using captures, real usage, and quantified metrics where possible, or qualitative rubrics where metrics are unclear. Invoke explicitly with /evaluator.
+disable-model-invocation: true
 ---
 
 # Evaluator

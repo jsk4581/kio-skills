@@ -1,6 +1,7 @@
 ---
 name: round-table
-description: Convenes a round-table meeting by spawning multiple agents in parallel, each holding a distinct persona, to debate a decision from several perspectives within the current context. Use when the user wants multi-perspective deliberation, a panel discussion, devil's-advocate debate, or mentions "round table", "panel", "debate", or "원탁".
+description: Convenes a round-table meeting by spawning multiple agents in parallel, each holding a distinct persona, to debate a decision from several perspectives within the current context. Invoke explicitly with /round-table.
+disable-model-invocation: true
 ---
 
 # Round Table

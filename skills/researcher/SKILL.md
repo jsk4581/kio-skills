@@ -1,6 +1,7 @@
 ---
 name: researcher
-description: Conducts deep research across the web and documents, drawing from papers, GitHub, expert sources, communities, news, and statistics, then synthesizes findings into organized insights. Use when the user wants to research a topic, gather data, survey prior art, analyze market trends, or mentions "research", "deep dive", or "리서치".
+description: Conducts deep research across the web and documents, drawing from papers, GitHub, expert sources, communities, news, and statistics, then synthesizes findings into organized insights. Invoke explicitly with /researcher.
+disable-model-invocation: true
 ---
 
 # Researcher
